@@ -1,10 +1,20 @@
-.env
-.venv/
-.pytest_cache/
-__pycache__/
-*.egg-info/
-data/
-backups/
+# env / secrets
 .env
 !.env.example
+
+# virtualenvs
+.venv/
+venv/
+env/
+
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# local data
+data/
+backups/
 soak.log

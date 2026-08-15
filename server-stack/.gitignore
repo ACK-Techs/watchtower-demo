@@ -1,7 +1,11 @@
 .env
 .venv/
+venv/
+env/
 .pytest_cache/
 __pycache__/
+*.py[cod]
+
 logs/**/*.jsonl
 logs/**/*.log
 reports/features/*.json
